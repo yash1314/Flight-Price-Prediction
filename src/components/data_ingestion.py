@@ -8,7 +8,7 @@ import pandas as pd
 @dataclass
 class DataIngestionconfig:
     data_path: str = os.path.join('notebooks/data', 'flight_fare.csv')
-    data:str = os.path.join('artifacts','raw_data.csv')
+    data:str = os.path.join('artifact','raw_data.csv')
 
 class DataIngestion:
     def __init__(self):

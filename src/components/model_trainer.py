@@ -20,7 +20,7 @@ from dataclasses import dataclass
 
 @dataclass
 class ModelTrainerConfig:
-    trained_model_file_path =  os.path.join('artifacts', 'model')
+    trained_model_file_path =  os.path.join('artifact', 'model')
 
 
 class ModelTrainer:

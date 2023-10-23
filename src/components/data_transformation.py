@@ -21,7 +21,7 @@ from src.utils import save_obj
 
 @dataclass
 class DataTransformationConfig:
-    transformed_data_file_path = os.path.join('artifacts', 'transformed_data.csv')
+    transformed_data_file_path = os.path.join('artifact', 'transformed_data.csv')
     
 
 class DataTransformation:
