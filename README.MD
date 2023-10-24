@@ -88,3 +88,4 @@ To run the web app follow this link: http://54.234.64.202:8501/
 ## Author:
 
 [Yash Keshari]
+Socials: https://www.linkedin.com/in/yash907/
