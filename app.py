@@ -64,11 +64,8 @@ def main():
         
         input_data = utils.preprocess(Airline= airline, Date_of_Journey=date, Source= Source,
                                         Destination= Destination, Duration=duration, Total_Stops=total_stops)
-        logging.info('User Input data preprocessing complete')
 
         result = np.round(predict.predict(features = input_data))
-
-        logging.info('Prediction successful')
 
         with st.spinner('processing'):
             time.sleep(1)
