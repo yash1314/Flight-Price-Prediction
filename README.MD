@@ -83,7 +83,7 @@ To run the project:
 
 ### Testing:
 
-To run the web app follow this link: http://54.234.64.202:8501/
+To run the web app follow this link: https://flight-price-prediction-jtpxo7e5ubbnkpbehuoee9.streamlit.app/
 
 ## Author:
 
