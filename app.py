@@ -14,9 +14,9 @@ def main():
     
     global predict
         
-    st.title('Flight Fare Price Prediction.')
-    st.markdown("Predict ticket price for you flight journey.")
-    st.markdown('Enter all the details and then press predict to get price estimation.')
+    st.title(':rainbow[Flight Fare Price Prediction.]')
+    st.markdown("Now get flight ticket price estimation at ease.")
+    st.markdown('------------------------------------------------------')
 
     cols1, cols2 , cols3= st.columns(3)
 

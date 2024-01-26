@@ -69,18 +69,7 @@ def convert_to_minutes(duration):
         return hours * 60 + minute
     except :
         return None
-    
-def convert_to_minutes(duration):
-        try:
-            hours, minute = 0, 0
-            for i in duration.split():
-                if 'h' in i:
-                    hours = int(i[:-1])
-                elif 'm' in i:
-                    minute = int(i[:-1])
-            return hours * 60 + minute
-        except :
-            return None
+
 
 def preprocess(Airline, Date_of_Journey, Source, Destination, Duration, Total_Stops):
     try:
