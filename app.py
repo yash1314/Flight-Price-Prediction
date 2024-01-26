@@ -72,7 +72,7 @@ def main():
         # bar.progress(60)
         # time.sleep(0.25)
         # bar.progress(100)
-        st.header(f"The Predicted Price of Flight ticket is ₹ {result}")
+            st.header(f"The Predicted Price of Flight ticket is ₹ {result}")
 
 if __name__ == "__main__":
     main()
